@@ -1,0 +1,23 @@
+.start{
+    background-image: url(../images/start-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.start-desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.start-header{
+    color:whitesmoke;
+    font: 2em sans-serif;
+    
+}
+
+p{
+    font-size: 2rem;
+}

@@ -1,0 +1,160 @@
+.card {
+    padding: 4rem;
+    
+   
+   
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1120px;
+    width:90%;
+    margin: 0 auto;
+   
+}
+
+.card-wrapper {
+    position: relative;
+    margin: 0px 0 45px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.card-list {
+    margin-bottom: 24px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.card-desc{
+    list-style: square;
+    width:500px;
+    font: 1.1em sans-serif;
+
+    
+}
+
+.card-desc-list {
+    padding-bottom: 10px;
+    
+   
+}
+.card-icons {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card-icon {
+    width: 55px;
+    height: 55px;
+}
+
+.card-button {
+    display:flex;
+    justify-content: flex-end;
+    
+}
+
+.card-button-icon {
+    width: 35px;
+    height: 35px;
+    margin-top: 80px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.card-button-icon:hover {
+    color: gray;
+    transform: scale(1.1);
+}
+.carditem-item{
+    display:flex;
+    flex:1;
+    margin:0 1rem;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.carditem-link{
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: transform 0.5s;
+    margin-top: 50px;
+    background-color: white;
+    
+  
+}
+.carditem-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.carditem-context {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.carditem-title {
+    font-size: 2em;
+    font-family: sans-serif;
+}
+    
+
+
+.carditem-figure {
+    position: relative;
+    width:500px;
+    height: 300px;
+    overflow: hidden;
+}
+
+
+.carditem-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 400px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+
+.carditem-link:hover {
+    transform: scale(1.1);
+    z-index: 20;
+    
+}
+.carditem-info {
+    padding: 20px 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.carditem-text {
+    color:#252e48;
+    font-size: 18px;
+    line-height: 20px;
+}
+

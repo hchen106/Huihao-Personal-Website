@@ -1,0 +1,37 @@
+.project {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   
+}
+
+.project-context {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-header {
+    margin-left: 275px;
+    margin-top: 100px;
+}
+
+.project-title {
+    font: 3em sans-serif;
+    
+}
+
+.project-card {
+    margin-left: 100px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .project-header {
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+    
+}
