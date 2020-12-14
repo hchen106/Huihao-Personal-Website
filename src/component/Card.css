@@ -158,3 +158,47 @@
     line-height: 20px;
 }
 
+@media screen and (max-width: 1100px) {
+    .carditem-context {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    .carditem-link {
+        width:80%;
+        margin-left: 100px;
+        align-items: center;
+    }
+
+    .carditem-info {
+        justify-content: center;
+        align-items: center;
+        font-size: 0.75rem;
+        margin-left: 70px;
+    }
+
+    .carditem-link:hover {
+      transform: scale(1.0);
+    }
+
+    .carditem-header {
+        flex-direction: column;
+    }
+    
+    .card-icon {
+        width: 35px;
+        
+    }
+
+    .carditem-img {
+        margin-left: 45px;
+    }
+
+    .card-button {
+       margin-right: 75px;
+        
+    }
+}

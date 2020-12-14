@@ -60,7 +60,7 @@ function Card() {
                             }
                             button = {
                                 <div className = 'card-button'>
-                                    <ImNewspaper className = 'card-button-icon' onClick={()=> window.open("http://localhost:3000/", "_blank")}/>
+                                    <ImNewspaper className = 'card-button-icon' onClick={()=> window.open("https://www.huihaochen.com", "_blank")}/>
                                     <AiFillGithub className = 'card-button-icon' onClick={()=> window.open("https://github.com/hchen106/Huihao-Personal-Website", "_blank")}/>   
                                 </div>
                             }

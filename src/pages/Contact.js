@@ -23,11 +23,11 @@ function contact() {
                 </div>
                 <div className = 'contact-page-container-right'>
                     <CopyToClipboard text={"852165175andy@gmail.com"}>
-                        <AiOutlineMail className = 'right-contact-icon' onClick={copy}/>
+                        <AiOutlineMail className = 'bottom-contact-icon' onClick={copy}/>
                     </CopyToClipboard>
-                    <AiFillLinkedin className = 'right-contact-icon' onClick={()=> window.open("https://www.linkedin.com/in/huihao-chen/", "_blank")} />
-                    <AiFillGithub className = 'right-contact-icon' onClick={()=> window.open("https://github.com/hchen106", "_blank")}/>
-                    <button className = 'right-contact-button' onClick={()=> window.open("https://drive.google.com/file/d/17duJNkHHiIRI4nnfwwIQhmh3rY2ojVBe/view?usp=sharing", "_blank")}>Resume</button>
+                    <AiFillLinkedin className = 'bottom-contact-icon' onClick={()=> window.open("https://www.linkedin.com/in/huihao-chen/", "_blank")} />
+                    <AiFillGithub className = 'bottom-contact-icon' onClick={()=> window.open("https://github.com/hchen106", "_blank")}/>
+                    <button className = 'bottom-contact-button' onClick={()=> window.open("https://drive.google.com/file/d/17duJNkHHiIRI4nnfwwIQhmh3rY2ojVBe/view?usp=sharing", "_blank")}>Resume</button>
                 </div>
            </div>
         </div>
