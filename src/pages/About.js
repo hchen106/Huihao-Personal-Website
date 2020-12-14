@@ -22,7 +22,7 @@ function About() {
     return (
         <div className = 'about'>
            <div className = 'row'>
-                <div className = 'col'>
+                
                     <div className = 'about-top-desc-wrapper'>
                         <div className = 'about-top-desc-container'>
                             <h4 className = 'about-title'>About me</h4>
@@ -37,8 +37,8 @@ function About() {
                         </div>
                         
                     </div>
-                </div>
-                <div className = 'col'>
+                
+               
                     <div className = 'about-bottom-info-wrapper'>
                        
                         <div className = 'bottom-contact-container'>
@@ -73,7 +73,7 @@ function About() {
                         </div>
                        
                     </div>
-                </div>
+               
            </div>
            
         </div>

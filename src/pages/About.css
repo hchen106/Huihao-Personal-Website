@@ -157,7 +157,6 @@
    flex-direction: column;
    justify-content: flex-start;
    width: 70vw;
-   background-color: white;
    margin-top: 100px;
    margin-left:200px;
 
@@ -270,11 +269,11 @@
       flex-direction: row;
       justify-content: space-evenly;
       align-items: center;
-      
+      margin-top: 125px;
     }
     
     .skill-container {
-      margin-top: 100px;
+      margin-top: 50px;
       margin-left:-200px;
     }
     
