@@ -11,9 +11,9 @@
     margin-right: -15px;
     margin-bottom: -15px;
     margin-left: -15px;
-    height: 50%;
+    height: 75%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 70%;
     flex-direction: column;
    
@@ -22,30 +22,20 @@
     
   }
   
-  .col {
-    display: flex;
-    margin-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
-    flex: 1;
-    max-width: 50%;
-    flex-basis: 50%;
-    align-content: center;
-    justify-content: center;
-    flex-direction: row;
-   
-    
-  }
 
   .about-top-desc-wrapper{
       max-width: 1000px;
       padding-top: 0;
       padding-bottom: 60px;
+      margin-left:150px;
       font: 1em sans-serif;
       display:flex;
-      justify-content: center;
+      justify-content: space-evenly;
       align-items: center;
       flex-direction: row;
+      height: 300px;
+      width: 100%;
+      
       
       
       
@@ -57,10 +47,10 @@
     display: flex;
     flex-direction: column;
     width: 70vw;
-    margin-left: -120px;
+    margin-left: -160px;
     margin-top: 100px;
   }
-
+  
   .about-title {
     font: 1em sans-serif;
     width:100%;
@@ -88,17 +78,16 @@
   }
 
 
-  .about-top-pic-container {
-    width:50%;
-  }
+  
   
   .top-pic{
     width:300px;
     height:300px;
     object-fit:cover;
     border-radius:50%;
-    margin-left: 380px;
+    margin-left: 100px;
     margin-top: 150px;
+    
     
     
   }
@@ -107,6 +96,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width:100%;
+    margin-top:100px;
   }
 
   
@@ -115,9 +106,10 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 75px;
     margin-top: 100px;
     width:50%;
+    height: 400px;
   }
 
   .bottom-contact-button {
@@ -156,9 +148,9 @@
    display: flex;
    flex-direction: column;
    justify-content: flex-start;
-   width: 70vw;
+   width: 100%;
    margin-top: 100px;
-   margin-left:200px;
+   margin-left:70px;
 
     
   }
@@ -205,7 +197,14 @@
   
 
   @media screen and (max-width: 1100px) {
-    
+    .row{
+      margin-left: 70px;
+      flex-direction: column;
+      align-items: center;
+      justify-content:space-evenly;
+      height: 50%;
+      margin-top:0px;
+    }
     
     .about-top-pic-container {
         width: 100%;
@@ -217,8 +216,8 @@
       width:200px;
       height:200px;
       border-radius:50%;
-      margin-right:400px;
-      margin-top:400px;
+      margin-right:250px;
+      margin-top:100px;
       
     }
     
@@ -251,36 +250,42 @@
     
     .about-top-desc-wrapper {
       flex-direction: column-reverse;
+      align-items: center;
+      justify-content:center;
+      margin-top:-100px;
+      margin-left:50px;
+      height: 75px;
       
     }
     
     .about-top-desc-container {
-      margin-top:25px;
+      margin-top:30px;
     }
     
     .bottom-contact-container {
       flex-direction: column-reverse;
       justify-content: center;
       align-items: center;
-      margin-top:-200px;
+      margin-top:100px;
+      height: 75px;
+      width:auto;
     }
     
     .bottom-contact-icons{
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
-      margin-top: 125px;
+      margin-top: 400px;
     }
     
     .skill-container {
-      margin-top: 50px;
+      margin-top: 100px;
       margin-left:-200px;
+      width: 70vw;
     }
     
     
-    .row{
-      margin-top: -300px;
-    }
+   
   
     .bottom-contact-icon{
       width:100px;
@@ -288,3 +293,5 @@
   
   
   }
+
+ 
