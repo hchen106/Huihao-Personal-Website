@@ -129,7 +129,7 @@ function Card() {
                                     }
                                     button = {
                                         <div className = 'card-button'>
-                                            <AiFillGithub className = 'card-button-icon' onClick={()=> window.open("https://github.com/pochong/AutomaticCatLitterBox", "_blank")}/>   
+                                            <AiFillGithub className = 'card-button-icon' onClick={()=> window.open("https://github.com/hchen106/Appointment_System", "_blank")}/>   
                                         </div>
                                     }
                     
@@ -160,7 +160,7 @@ function Card() {
                                     }
                                     button = {
                                         <div className = 'card-button'>
-                                            <AiFillGithub className = 'card-button-icon' onClick={()=> window.open("https://github.com/pochong/AutomaticCatLitterBox", "_blank")}/>   
+                                            <AiFillGithub className = 'card-button-icon' onClick={()=> window.open("https://github.com/aniken998/Checklist-and-Split", "_blank")}/>   
                                         </div>
                                     }
                     
