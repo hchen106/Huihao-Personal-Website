@@ -60,7 +60,7 @@ function About() {
                             </CopyToClipboard>
                             <AiFillLinkedin className = 'bottom-contact-icon' onClick={()=> window.open("https://www.linkedin.com/in/huihao-chen/", "_blank")} />
                             <AiFillGithub className = 'bottom-contact-icon' onClick={()=> window.open("https://github.com/hchen106", "_blank")}/>
-                            <button className = 'bottom-contact-button' onClick={()=> window.open("https://drive.google.com/file/d/17duJNkHHiIRI4nnfwwIQhmh3rY2ojVBe/view?usp=sharing", "_blank")}>Resume</button>
+                            <button className = 'bottom-contact-button' onClick={()=> window.open("https://drive.google.com/file/d/15jAgaiaGVVCfOnryP-ORWCAyYr5a8A20/view?usp=sharing", "_blank")}>Resume</button>
 
                     </div>
                 </div>

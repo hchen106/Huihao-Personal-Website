@@ -96,7 +96,6 @@ function Card() {
                                 <div className = 'card-button'>
                                     <ImNewspaper className = 'card-button-icon' onClick={()=> window.open("https://drive.google.com/file/d/1CudKE9eUeUszb27NoWyZoaYdFV4DNWTn/view?usp=sharing", "_blank")}/>
                                     <ImFileVideo className = 'card-button-icon' onClick={()=> window.open("https://drive.google.com/file/d/1dVp_fCMaISxneIn7ZyU-yJZ8p8HuSrGE/view?usp=sharing", "_blank")}/>
-                                    <AiFillFilePdf className = 'card-button-icon' onClick={()=> window.open("https://drive.google.com/file/d/1iMiCAD8SSpPbzNV7E-KCamHj1GY8YvUh/view?usp=sharing", "_blank")}/>
                                     <AiFillGithub className = 'card-button-icon' onClick={()=> window.open("https://github.com/pochong/AutomaticCatLitterBox", "_blank")}/>   
                                 </div>
                             }
